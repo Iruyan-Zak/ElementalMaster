@@ -15,7 +15,6 @@ public class ControllerEarth : ControllerDefault
         base.OnStateExit(animator, stateInfo, layerIndex);
 
         ResetVelocity();
-        rigidbody.AddForce(JumpForce * Vector2.up, ForceMode2D.Impulse);
     }
 
     protected override void Jump() { }
