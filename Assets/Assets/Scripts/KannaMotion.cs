@@ -7,6 +7,9 @@ public class KannaMotion : StateMachineBehaviour
     Rigidbody2D rigidbody;
     KannaOperation kannaOperation;
 
+    [SerializeField]
+    float speed = 0.6f;
+
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         rigidbody = animator.GetComponent<Rigidbody2D>();
@@ -15,6 +18,7 @@ public class KannaMotion : StateMachineBehaviour
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
-        animator.SetFloat("Speed", kannaOperation.IsGrounded ? Mathf.Abs(rigidbody.velocity.x) : 0);
+        animator.SetFloat("Speed", Mathf.Abs(rigidbody.velocity.x));
+        animator.speed = kannaOperation.IsGrounded ? speed : 0;
     }
 }

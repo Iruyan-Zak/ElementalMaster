@@ -33,7 +33,7 @@ public class KannaOperation : MonoBehaviour
     {
         get
         {
-            return Physics2D.Raycast(transform.position, -Vector3.up, distToGround + 0.1f, groundMask);
+            return Physics2D.Raycast(transform.position, -Vector3.up, distToGround + 0.08f, groundMask);
         }
     }
 
