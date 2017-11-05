@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Handy
+  - Kanna
   layers:
   - Default
   - TransparentFX
@@ -14,6 +16,10 @@ TagManager:
   - 
   - 
   - Ground
+  - Stage
+  - Element
+  - Kanna
+  - Hold
   - 
   - 
   - 
@@ -32,11 +38,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - View
   m_SortingLayers:
   - name: Default
     uniqueID: 0

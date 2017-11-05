@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4926389070076896}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 2_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4601673686970746}
   - component: {fileID: 212772186533162784}
   - component: {fileID: 61071812768159908}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4403612542512608}
   - component: {fileID: 212061072007336804}
   - component: {fileID: 61554071840188582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1646707882978540}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c25a72166f3482f48aaaccda5b3b7aeb, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -134,7 +134,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1831584797140470}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c25a72166f3482f48aaaccda5b3b7aeb, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
