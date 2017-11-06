@@ -126,8 +126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 214fb545c71b51a4a9f70b6010a0281f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RunForce: 2000
-  AirialForce: 300
+  RunForce: 10
+  AirialForce: 10
   JumpForce: 2
   MaxSpeed: 1
 --- !u!114 &114862164347291916
